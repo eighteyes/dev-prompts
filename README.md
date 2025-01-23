@@ -14,12 +14,12 @@ The base `.clinerules` file applies to ALL modes, so add your special instructio
 
 Moves through 7 modes, starting with a product focus, creating files along the way in `ai-docs`, finishing with a readme.
 
-Validate the output here before continuing with coding, especially `implementation.md`, as we will refer to that while coding.
+Validate the output here before continuing with coding, especially `plan.md`, as we will refer to that while coding.
 
 # Code
 
 Kick off each session with:
-> @./ai-docs/implementation execute step n
+> @./ai-docs/plan.md execute step n
 
 At the end of each session, update the `ai-docs` with the current context with.
 > update memory
