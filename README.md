@@ -18,6 +18,9 @@ Validate the output here before continuing with coding, especially `plan.md`, as
 
 # Code
 
+Initially, ask:
+> @./ai-docs/plan.md Review this plan for logical consistency
+
 Kick off each session with:
 > @./ai-docs/plan.md execute step n
 
@@ -25,3 +28,6 @@ At the end of each session, update the `ai-docs` with the current context with.
 > update memory
 
 Thanks to <https://github.com/nickbaumann98/cline_docs> for inspiration of the memory bank system.
+
+# Duck
+A simple one to use while running / debugging your application.

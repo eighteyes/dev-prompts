@@ -1,1 +1,7 @@
 Use `code <file>` command to indicate a user should review a file.
+
+# Loss States
+If any of the following occur, STOP and ask the user.
+- repeat the same approach 3 times.
+- edit the same file 3 times.
+- Your context window approaches 20% full
