@@ -30,4 +30,4 @@ At the end of each session, update the `ai-docs` with the current context with.
 Thanks to <https://github.com/nickbaumann98/cline_docs> for inspiration of the memory bank system.
 
 # Duck
-A simple one to use while running / debugging your application.
+A simple one to use while running / debugging your application. Just send it your run command to kick it off so it doesn't have to waste tokens figuring it out.

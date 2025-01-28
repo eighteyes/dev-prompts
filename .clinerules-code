@@ -6,7 +6,7 @@ If you encounter deprecated commands or API, save the transformation to `./cline
 
 # Workflow
 
-1. Check Memory Bank files.
+1. Check Memory Bank files. If these files do not exist, initialize them. 
 2. Read files relevant to the task. Refer to Plan files if necessary. Do not proceed without confidence and complete context.
 3. Gut check task, ask questions if you are unsure or if any information is missing.
 4. Before working, validate the current code and refactor if necessary.
