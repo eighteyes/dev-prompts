@@ -12,6 +12,12 @@ The base `.clinerules` file applies to ALL modes, so add your special instructio
 >
 > Note, the architect role doesn't permit file writing, so this 'archa' needs to be a custom role.
 
+## Workflow 
+
+In your prompt be sure to include `Ask Questions` for stronger adherence to the gated workflow.
+
+We write out exploratory questions in the output of the files instead of inline. It seems to be the only way to manage to get a good Q/A cycle going. Ensure auto edit is off and put your answers into the response instead of allowing it to write the `*.md` file. *answer the questions for best results*
+
 Moves through 7 modes, starting with a product focus, creating files along the way in `ai-docs`, finishing with a readme.
 
 Validate the output here before continuing with coding, especially `plan.md`, as we will refer to that while coding.
