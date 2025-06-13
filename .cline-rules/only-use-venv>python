@@ -1,0 +1,33 @@
+# Only Use venv for Python Development
+
+## Overview
+This rule enforces the use of Python virtual environments (venv) for all Python development. No other virtual environment tools (like conda, pipenv, etc.) should be used.
+
+## Technical Details
+- Always create a new venv using `python -m venv venv`
+- Activate venv before any Python work:
+  - Unix/macOS: `source venv/bin/activate`
+  - Windows: `venv\Scripts\activate`
+- Store dependencies in requirements.txt
+- Use pip for package management within venv
+- Deactivate with `deactivate` when done
+
+## When to Apply
+- Starting a new Python project
+- Setting up existing Python projects
+- Installing Python dependencies
+- Running Python scripts or applications
+- Any Python development work
+
+## Context Clues
+- Presence of Python files (*.py)
+- Package management needs
+- Multiple Python versions
+- Dependency isolation requirements
+
+## Metadata
+version: 1.0.0
+created: 2025-03-02
+author: Roo
+type: python-environment
+scope: global

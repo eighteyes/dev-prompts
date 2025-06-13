@@ -1,7 +1,38 @@
 Use `code <file>` command to indicate a user should review a file.
 
-# Loss States
+If a file exceeds 100 lines, refactor it into multiple files, update usage.
+
+If there is an opportunity to write and execute a script to accomplish a task, do so.
+
+# File Paths
+src/ - code
+tests/ - tests
+setup/ - setup instructions
+db/ - database artifacts
+
+# Javascript
+pnpm
+
+# Python
+venv
+
+# Fail
+ States
 If any of the following occur, STOP and ask the user.
 - repeat the same approach 3 times.
 - edit the same file 3 times.
 - Your context window approaches 20% full
+
+# Rules
+- only found in .cline-rules/, mkdir if none
+- read this directory once to get in context, names will indicate when to apply rules
+- apply rules by reading the file into context
+- file names guidelines: ( ex. )
+  - only-use-venv.md - camel case
+  - no-oop@javascript.md - context
+  - no-conda>python.md - when running a command
+  - no-style-changes!save?*.css.md - events and file blobs
+  - no-globals?src|components|*.js.md - folder blobs (can't use certain chars )
+- When you make a mistake and I have to guide you to a correct solution, save a rule.
+- Propose and save a rule if you think one would be useful.
+- Rule contents: overview, technical details about rule, when it should be applied, context clues and v1 metadata. 
